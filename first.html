@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf=8">
+        <title>First Page</title>
+        <link rel = "stylesheet" href = "filetwo.css">
+    </head>
+    <body>
+<!--Task 1-->
+       <h3><a href = "index.html">Back to Index</a></h3>
+       <div class = "my love page">Style me via the external method!</div>
+       <p class = "p">I would like to be styled with the internal method, please.</p>
+       <button style = "background-color: orange; font-size: 18px;">Inline Method</button>
+<!--Task 1 ends here-->
+        <style>
+            /*CSS-Task 1*/
+            .p {
+                color: white;
+                background-color: green;
+                font-size: 18px;
+            }
+            /*CSS-Task 1 ends here*/
+
+            /*CSS-Task 2*/
+            .odd {
+                color: hsl(100,100,100);
+                background-color: rgb(245, 142, 142);
+                font-size: 18px;
+            }
+            #a {
+                color: hsl(241, 100%, 50%);
+                font-size:36px;
+            }
+            .c {
+                font-size:24px;
+            }
+            #b {
+                background-color:rgb(76, 230, 0);
+                font-weight: bold;
+                font-size: 24px;
+            }
+            /*CSS-Task 2 ends here*/
+
+            /*CSS-Task 3*/
+                .first {
+                    background-color: black;
+                    color:white;
+                }
+                .second {
+                    background-color: yellow;
+                }
+                .first,
+                .second {
+                    font-size: 28px;
+                    font-family: Helvetica, "Times New Roman", sans-serif;
+                }
+            /*CSS-Task 3 ends here*/
+
+            /*CSS-Task 4*/
+                .avatar.proportioned {
+                    width: 300px;
+                    height: auto;
+                }
+                .avatar.distorted {
+                    width: 200px;
+                    height: 400px;
+                }
+            /*CSS-Task 4 ends here*/
+
+            /*CSS-Task 5*/
+                .container .text {
+                    background-color: yellow;
+                    color: red;
+                    font-size: 20px;
+                    text-align: center;
+                }
+            /*CSS-Task 5 ends here*/
+
+            /*CSS-Task 6*/
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                } 
+
+                .para,
+                .small-para {
+                    color: hsl(0, 0%, 0%);
+                    font-weight: 800;
+                }
+
+                .small-para {
+                    font-size: 14px;
+                    font-weight: 800;
+                }
+
+                .para {
+                    font-size: 22px;
+                }
+
+                .confirm {
+                    background: green;
+                    color: white;
+                    font-weight: bold;
+                } 
+
+                .button {
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                    font-size: 20px;
+                }
+
+                .child {
+                    color: rgb(0, 0, 0);
+                    font-weight: 800;
+                    font-size: 14px;
+                }
+
+                div.text {
+                color: rgb(0, 0, 0);
+                font-size: 22px;
+                font-weight: 100;
+                }
+            /*CSS-Task 6 ends here*/
+        </style>
+
+<!--Task 2-->
+        <p class = "odd">Number 1 - I`m a class!</p>
+        <p id = "a">Number 2 - I`m one ID.</p>
+        <p class = "odd c">Number 3 - I`m a class, but cooler!</p>
+        <p id = "b">Number 4 - I`m another ID.</p>
+        <p class = "odd">Number 5 - I`m a class!</p>
+<!--Task 2 ends here-->
+
+<!--Task 3-->
+        <button class = "first">Click Me!</button>
+        <button class = "second">No, Click Me!</button>
+<!--Task 3 ends here-->
+
+<!--Task 4-->
+        <p>
+        <div>
+        <img class="avatar proportioned" src="img/women.jpg" alt="Woman with glasses">
+        <img class="avatar distorted" src="img/man.jpg" alt="Man with surprised expression">
+        </div>
+
+        <div>
+        <img class="original proportioned" src="img/women.jpg" alt="Woman with glasses">
+        <img class="original distorted" src="img/man.jpg" alt="Man with surprised expression">
+        </div>
+        </p>
+<!--Task 4 ends here-->
+
+<!--Task 5-->
+        <div class="container">
+        <p class="text">This should be styled.</p>
+        </div>
+        <p class="text">This should be unstyled.</p>
+        <p class="text">This should be unstyled.</p>
+        <div class="container">
+        <p class="text">This should be styled.</p>
+        <p class="text">This should be styled.</p>
+        </div>
+<!--Task 5 ends here-->
+
+<!--Task 6-->
+        <p class="para">I'm just a paragraph with extra bold text!
+        </p>
+        <p class="small-para">I'm a smaller paragraph, also with extra bold text!</p>
+        <button id="confirm-button" class="confirm">Confirm</button>
+        <button id="cancel-button" class="button cancel">Cancel</button>
+        <div class="text">I'm a div with thin text!</div>
+        <div class="text">I'm a div with thin text and a child div!
+        <div class="child">I'm a smaller child div with extra bold text.
+        </div>
+        </div>
+<!--Task 6-->
+    </body>
+</html>

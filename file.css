@@ -1,0 +1,26 @@
+* {
+    color:green;
+}
+
+div {
+    color: cyan;
+}
+
+.alert-text {
+    color:yellow;
+}
+
+.myclass {
+    color:blue;
+}
+
+#title {
+    color:red; 
+}
+
+.classa,
+.classb {
+    color: blue;
+    background-color: yellow;
+}
+
